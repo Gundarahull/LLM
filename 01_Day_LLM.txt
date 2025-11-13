@@ -1,0 +1,41 @@
+Large Language Model
+
+>> Various LLMs work on different strengths like speed, Accuracy
+
+LLM Use is very common
+
+>> How it works?
+    - Tokenization >> It will break into chunks >> even for spaces 
+    - Embedding >> Each word into vectors??
+    - Transformer >> Choosing Key words
+    - Predidction >> Giving High Probibility Ans as TOKEN
+
+- Text >> Token >> Vectors(Embedding)>>Brain>> Output Vectors (Embedding)>> Output Token with High Probability>> Output Text
+
+
+>> It will always Predcits 
+
+>> Sampling 
+    - Token adhi aithe yekkuva probability untadho dhaney Choose chesukune avasaram ledhu.... It can another probability tokens also
+    >> Sampling Strategies....
+    -- Decoding Setting >> Temparature, Top-k, Top- m etc
+
+    >> Temparature
+        - When Temparature low, model gives high probbaility Output tokens
+        - when Temparature is High, model get confuse because high probability output tokens are more and more
+
+    >> Top-K Sampling
+        - Top-K-5
+            - it will give high probility of 5 tokens
+    
+    >> Top-p Sampling
+        - Top-p-0.96
+            - It will choose the high probbality words where the cummulative sum of top where just great than 0.96
+
+    >> Min-p
+        - Setting up to cut the output token below that 
+        - if we set Min-0.2
+            - The output tokens 0.5.0.3, 0.3, 0.1, 0.05
+            - we set the min is 0.2 so it will erase the below 0.2 like 0.1, 0.05
+            - It will chhose only above 0.2 tokens
+

@@ -1,0 +1,8 @@
+>> Run LLMs in local
+
+>> OLLAMA (Product) platforms which will give local models
+    - CLI Tool not GIU
+    - Only qunatized Models
+
+>> We can run through API's also
+

@@ -1,0 +1,34 @@
+>> Hugging Face and Open SOurce LLMs
+
+>> How to Use LLMs
+
+-- Open Source LLMs
+
+>> ALready Trained AI model through Infernce...
+
+-- To store the data , we need to host in the GPU or CPUS
+-- In local , in case our systems cant afford that much
+-- Hugging Face will provide this models through APIS
+
+>> GPUs work on parallely
+    - RTX 4090 has 16384 cores 
+
+>> CPU 
+    - I4 >> It runs 4 tasks around in Parallel
+
+>> Models run in GPU
+
+>> Model Parameters the leaning numbers like GPT-2 has 124 million Parameters(Weight + Value)
+
+>> How much Size the Model is
+    - Model Size = Paramters * Precision (4 bytes ya 1 Byte or 0.5 byte)
+    - Changing the Precision from high Precision to low Precision
+        -- INTO int 4 Smallestttt, int 8 Small 
+        - this called Quantization
+        -- GGUF Quantized model (Low precision)
+    - More paramateres = More Info but slow (In case low CPU) Use GPU
+
+>> Hugging Faces like a store (open source) to get the models
+
+>> TRANSFORMER
+    - Like a package in the PYTHON where we can use model in our servers
