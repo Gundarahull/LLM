@@ -1,0 +1,20 @@
+>> Prompt
+    - Better Prompt = Better Quality
+    - Tone, Context, Perspective
+
+    . system
+    . Instructions
+    . what do u want to do
+
+    > Role Play Prompting
+        - Act like a Fitness trainer, i am 28 yrs old bla bla, i want to cut the fat 
+
+    > Chain of Thought Prompting
+        - Think Out Loud
+        - Giving the Question and Answer, in what way we want to do
+
+    > Few Shot Prompting
+        - Give 2-3 examples 
+        - Then LLM will shoot same output pattern
+
+    >
