@@ -5,6 +5,8 @@ import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
 import { PromptTemplate } from "@langchain/core/prompts";
 import { RunnableSequence } from "@langchain/core/runnables";
 
+// Packages >> @langchain/core": "^1.0.5", "@langchain/google-genai": "^1.0.1",
+
 const model = new ChatGoogleGenerativeAI({
   model: "models/gemini-2.5-flash",
   apiKey: process.env.GOOGLE_API_KEY,
