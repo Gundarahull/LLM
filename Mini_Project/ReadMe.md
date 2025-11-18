@@ -1,7 +1,4 @@
-Here is a **professionally written, clean, industry-standard Markdown README** for your project.
-You can **copy–paste directly into a `README.md` file**.
 
----
 
 # 🍽️ AI-Powered Restaurant Assistant (LangChain + Gemini + Node.js)
 
