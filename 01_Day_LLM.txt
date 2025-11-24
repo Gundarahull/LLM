@@ -10,7 +10,7 @@ LLM Use is very common
     - Transformer >> Choosing Key words
     - Predidction >> Giving High Probibility Ans as TOKEN
 
-- Text >> Token >> Vectors(Embedding)>>Brain>> Output Vectors (Embedding)>> Output Token with High Probability>> Output Text
+- Text >> Token >> Vectors(Embedding)(Converting into the numbers, normally vectors in NUMBERS)>>Brain>> Output Vectors (Embedding)>> Output Token with High Probability>> Output Text
 
 
 >> It will always Predcits 
@@ -38,4 +38,5 @@ LLM Use is very common
             - The output tokens 0.5.0.3, 0.3, 0.1, 0.05
             - we set the min is 0.2 so it will erase the below 0.2 like 0.1, 0.05
             - It will chhose only above 0.2 tokens
+
 
